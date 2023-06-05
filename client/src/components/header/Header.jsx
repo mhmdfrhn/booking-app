@@ -12,11 +12,13 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { DateRange } from "react-date-range";
 import { format } from "date-fns";
+import { useNavigate } from "react-router-dom";
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 
 const Header = () => {
-  const [openDate, setOpenDate] = useState("");
+  const [destination, setDestination] = useState("");
+  const [openDate, setOpenDate] = useState(false);
   const [date, setDate] = useState([
     {
       startDate: new Date(),
@@ -39,6 +41,11 @@ const Header = () => {
         [name]: operation === "i" ? options[name] + 1 : options[name] - 1,
       };
     });
+  };
+
+  const navigate = useNavigate();
+  const handleSearch = () => {
+    navigate("/hotels", { state: { destination, date, options } });
   };
 
   return (
@@ -69,7 +76,7 @@ const Header = () => {
         <h1 className="header-title">A lifetime of discounts? It's Genius.</h1>
         <p className="header_desc">
           Get rewarded for your travels - unlock instant savings of 10% or more
-          with a free Lamabooking account
+          with a free HBooking account
         </p>
         <button className="header-btn">Sign in / Register</button>
         <div className="header-search">
@@ -184,6 +191,11 @@ const Header = () => {
                 </div>
               </div>
             )}
+          </div>
+          <div className="header-serch_item">
+            <button className="header-btn" onClick={handleSearch}>
+              Search
+            </button>
           </div>
         </div>
       </div>
