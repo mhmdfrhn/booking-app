@@ -82,7 +82,7 @@
   color: lightgray;
 }
 
-.date {
+.dates {
   position: absolute;
   top: 50px;
   z-index: 2;
@@ -90,7 +90,7 @@
 
 .options {
   position: absolute;
-  z-index: 2;
+  z-index: 22;
   top: 50px;
   background-color: white;
   color: gray;

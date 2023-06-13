@@ -23,6 +23,7 @@ const SearchItem = ({ item }) => {
           <div className="item_rating">
             <span>Excellent</span>
             <button>{item.rating}</button>
+            console.log(item.rating)
           </div>
         )}
         <div className="item_detail-text">
