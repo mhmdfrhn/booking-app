@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "6482bcab5f73505233f7a0b5"
+  },
+  "username": "farhan",
+  "email": "frhn2707@gmail.com",
+  "password": "$2a$10$rSDr92XKcg/bSVJi8ToTaOttLsfffOPnEzIuzQT55aCfdT9JDXn2u",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-06-09T05:46:19.629Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-09T05:46:19.629Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648944eee7d6fa0070dab886"
+  },
+  "username": "admin",
+  "email": "admin@gmail.com",
+  "country": "INA",
+  "city": "Tangerang Selatan",
+  "phone": "6282124820011",
+  "password": "$2a$10$9SUZCqSRFRKDdgBrJxBJmebwFMfINudmTWq91Qg6tnnTi7Z325UZG",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-06-14T04:41:18.700Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-14T04:41:18.700Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64894593e7d6fa0070dab888"
+  },
+  "username": "user",
+  "email": "user@gmail.com",
+  "country": "INA",
+  "img": "https://www.pexels.com/photo/woman-wearing-black-spaghetti-strap-top-415829/",
+  "city": "Tangerang Selatan",
+  "phone": "6282124820033",
+  "password": "$2a$10$UScI2sABKEzSApWsmJKgT.Z4jvRNbRFeLluxC2AAjspRo0fH0Jxqe",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-06-14T04:44:03.707Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-14T04:44:03.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648945b1e7d6fa0070dab88a"
+  },
+  "username": "user1",
+  "email": "user1@gmail.com",
+  "country": "INA",
+  "img": "https://www.pexels.com/photo/selective-focus-photography-of-woman-holding-dslr-camera-1264210/",
+  "city": "Tangerang Selatan",
+  "phone": "6282124820044",
+  "password": "$2a$10$j13J.3g4zaN3w9vfIY14BehWpizPX6yaIrgd4ZXuUTh153CVcrX8C",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-06-14T04:44:33.022Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-14T04:44:33.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648945eae7d6fa0070dab88c"
+  },
+  "username": "user2",
+  "email": "user2@gmail.com",
+  "country": "INA",
+  "img": "https://www.pexels.com/photo/woman-in-gray-coat-holding-white-smartphone-943084/",
+  "city": "Tangerang Selatan",
+  "phone": "6282124820055",
+  "password": "$2a$10$4wFTxbkTKn.pIsAuEh4Le.Jsy1NRxRqT6mvqoJXhXBwyqwGAqalQa",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2023-06-14T04:45:30.576Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-14T04:45:30.576Z"
+  },
+  "__v": 0
+}]

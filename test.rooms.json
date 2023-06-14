@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "64872dc64233513e7d3601e6"
+  },
+  "title": "King Room2",
+  "price": 100,
+  "maxPeople": 2,
+  "desc": "King size 2 bed, 2 bathroom, balcony",
+  "roomNumbers": [
+    {
+      "number": 101,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64872dc64233513e7d3601e7"
+      }
+    },
+    {
+      "number": 102,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64872dc64233513e7d3601e8"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-06-12T14:37:58.311Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-12T14:37:58.311Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64872ea14233513e7d3601ed"
+  },
+  "title": "King Room",
+  "price": 100,
+  "maxPeople": 2,
+  "desc": "King size bed, 1 bathroom, balcony",
+  "roomNumbers": [
+    {
+      "number": 101,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64872ea14233513e7d3601ee"
+      }
+    },
+    {
+      "number": 102,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64872ea14233513e7d3601ef"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-06-12T14:41:37.497Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-12T14:41:37.497Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64880abe4f49219ef918c74e"
+  },
+  "title": "Expensive King Room",
+  "price": 100,
+  "maxPeople": 4,
+  "desc": "King size 2 bed, 2 bathroom, balcony",
+  "roomNumbers": [
+    {
+      "number": 401,
+      "unavailableDates": [
+        {
+          "$date": "2023-06-13T17:00:00.000Z"
+        },
+        {
+          "$date": "2023-06-14T17:00:00.000Z"
+        },
+        {
+          "$date": "2023-06-15T17:00:00.000Z"
+        }
+      ],
+      "_id": {
+        "$oid": "64880abe4f49219ef918c74f"
+      }
+    },
+    {
+      "number": 402,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64880abe4f49219ef918c750"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-06-13T06:20:46.478Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-13T14:42:48.434Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,361 @@
+[{
+  "_id": {
+    "$oid": "6482fd1fddee337eb0430689"
+  },
+  "name": "Berlin Hotels",
+  "type": "hotel",
+  "city": "berlin",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Best Hotel in the Berlin",
+  "desc": "Hotel Description",
+  "rooms": [
+    "64872ea14233513e7d3601ed",
+    "64872ebc4233513e7d3601f2",
+    "64880abe4f49219ef918c74e"
+  ],
+  "cheapestPrice": 200,
+  "featured": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fd61ddee337eb043068d"
+  },
+  "name": "London Hotels",
+  "type": "hotel",
+  "city": "london",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Best Hotel in the London",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 400,
+  "featured": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fd81ddee337eb0430690"
+  },
+  "name": "Madrid Hotels",
+  "type": "hotel",
+  "city": "madrid",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Best Hotel in the Madrid",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 400,
+  "featured": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fda1ddee337eb0430692"
+  },
+  "name": "Madrid Awesome Hotels",
+  "type": "hotel",
+  "city": "madrid",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Awesome Hotel in the Madrid",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 400,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fdb2ddee337eb0430694"
+  },
+  "name": "Berlin Awesome Hotels",
+  "type": "hotel",
+  "city": "berlin",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Awesome Hotel in the Berlin",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 400,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fddeddee337eb0430696"
+  },
+  "name": "London Awesome Hotels",
+  "type": "hotel",
+  "city": "london",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Awesome Hotel in the London",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 400,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fdf3ddee337eb0430698"
+  },
+  "name": "London Cheapest Hotels",
+  "type": "hotel",
+  "city": "london",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Hotel in the London",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 100,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fe03ddee337eb043069a"
+  },
+  "name": "Madrid Cheapest Hotels",
+  "type": "hotel",
+  "city": "madrid",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Hotel in the Madrid",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 100,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fe12ddee337eb043069c"
+  },
+  "name": "Berlin Cheapest Hotels",
+  "type": "hotel",
+  "city": "berlin",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Hotel in the Berlin",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 100,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fe73ddee337eb04306af"
+  },
+  "name": "Berlin Apartments",
+  "type": "apartment",
+  "city": "berlin",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Apartments in the Berlin",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 50,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fe81ddee337eb04306b1"
+  },
+  "name": "Madrid Apartments",
+  "type": "apartment",
+  "city": "madrid",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Apartments in the Madrid",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 50,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fe97ddee337eb04306b3"
+  },
+  "name": "London Apartments",
+  "type": "apartment",
+  "city": "london",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Apartments in the London",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 50,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482ff52ddee337eb04306e8"
+  },
+  "name": "London Resorts",
+  "type": "resort",
+  "city": "london",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Resorts in the London",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 150,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482ff61ddee337eb04306ea"
+  },
+  "name": "Madrid Resorts",
+  "type": "resort",
+  "city": "madrid",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Resorts in the Madrid",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 150,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482ff6dddee337eb04306ec"
+  },
+  "name": "Berlin Resotts",
+  "type": "resort",
+  "city": "berlin",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Resorts in the Berlin",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 150,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482ff9fddee337eb04306fe"
+  },
+  "name": "Berlin Villas",
+  "type": "villa",
+  "city": "berlin",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Villas in the Berlin",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 170,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482ffa9ddee337eb0430700"
+  },
+  "name": "Madrid Villas",
+  "type": "villa",
+  "city": "madrid",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Villas in the Madrid",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 170,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482ffb8ddee337eb0430702"
+  },
+  "name": "London Villas",
+  "type": "villa",
+  "city": "london",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Villas in the London",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 170,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482ffe1ddee337eb0430714"
+  },
+  "name": "London Cabins",
+  "type": "cabin",
+  "city": "london",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Cabins in the London",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 170,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6482fffdddee337eb0430716"
+  },
+  "name": "Madrid Cabins",
+  "type": "cabin",
+  "city": "madrid",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Cabins in the Madird",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 170,
+  "featured": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6483000eddee337eb0430718"
+  },
+  "name": "Berlin Cabins",
+  "type": "cabin",
+  "city": "berlin",
+  "address": "somewhere",
+  "distance": "500",
+  "photos": [],
+  "title": "Cheapest Cabins in the Berlin",
+  "desc": "Hotel Description",
+  "rooms": [],
+  "cheapestPrice": 170,
+  "featured": false,
+  "__v": 0
+}]
