@@ -32,7 +32,6 @@ const Login = () => {
       navigate("/");
     } catch (err) {
       dispatch({ type: "LOGIN_FAILURE", payload: err.response.data });
-      console.log(err);
     }
   };
 
