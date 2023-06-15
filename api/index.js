@@ -12,6 +12,7 @@ import roomsRoute from "./routes/rooms.js";
 const app = express();
 dotenv.config();
 
+//** Mongodb connection */
 const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI);
@@ -21,6 +22,7 @@ const connect = async () => {
   }
 };
 
+// ** Mongoose event handler */
 mongoose.connection.on("connected", () => {
   console.log("mongoDB connected!");
 });
@@ -40,11 +42,13 @@ app.use(
 app.use(cookieParser());
 app.use(express.json());
 
+// ** Routes */
 app.use("/api/auth", authRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
+// ** Costum Err */
 app.use((err, req, res, next) => {
   const errorStatus = err.status || 500;
   const errorMessage = err.message || "Something went wrong!";
