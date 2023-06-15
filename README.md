@@ -49,3 +49,7 @@ cd api && yarn dev
 ### Buka aplikasi di browser dengan mengakses:
 http://localhost:5137/.
 ```
+
+#### Notes:
+
+pastikan model database yang tersedia sudah di import kedalam cluster mongodb database yang sudah anda buat sebelumnya.
