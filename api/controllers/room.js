@@ -1,15 +1,20 @@
+//** Rooms Controller */
+
 import Room from "../models/Room.js";
 import Hotel from "../models/Hotel.js";
-import { createError } from "../utils/error.js";
 
+//** Create Room */
 export const createRoom = async (req, res, next) => {
+  //** get hotel id params */
   const hotelId = req.params.hotelid;
   const newRoom = new Room(req.body);
 
   try {
+    //** save room */
     const savedRoom = await newRoom.save();
 
     try {
+      //** passing hotel id to get rooms id  */
       await Hotel.findByIdAndUpdate(hotelId, {
         $push: { rooms: savedRoom._id },
       });
@@ -22,11 +27,17 @@ export const createRoom = async (req, res, next) => {
   }
 };
 
+//** Update Room */
 export const updateRoom = async (req, res, next) => {
   try {
+    //** passing id hotels used to provide new data to be updated. */
     const updatedRoom = await Room.findByIdAndUpdate(
       req.params.id,
+
+      //** used to updated property in this case is body */
       { $set: req.body },
+
+      //** used terms to update new property */
       { new: true }
     );
     res.status(200).json(updatedRoom);
@@ -35,11 +46,15 @@ export const updateRoom = async (req, res, next) => {
   }
 };
 
+//** update room availability property */
 export const updateRoomAvailability = async (req, res, next) => {
   try {
+    //** passing id as param to updated availability property */
     await Room.updateOne(
+      //** set the room id with req.params.id in the roomNumbers array */
       { "roomNumbers._id": req.params.id },
       {
+        //** get availability property and set to new value in this case is dates */
         $push: {
           "roomNumbers.$.unavailableDates": req.body.dates,
         },
@@ -51,11 +66,13 @@ export const updateRoomAvailability = async (req, res, next) => {
   }
 };
 
+//** Delete Room */
 export const deleteRoom = async (req, res, next) => {
   const hotelId = req.params.hotelid;
   try {
     await Room.findByIdAndDelete(req.params.id);
     try {
+      //** used to updated property in this case is rooms property by id params */
       await Hotel.findByIdAndUpdate(hotelId, {
         $pull: { rooms: req.params.id },
       });
