@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+//** Api Fetching hooks */
+import { useEffect, useState } from "react";
 import axios from "axios";
 
 const useFetch = (url) => {
@@ -6,6 +7,7 @@ const useFetch = (url) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
+  //** URL Hooks */
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
@@ -22,6 +24,7 @@ const useFetch = (url) => {
     fetchData();
   }, [url]);
 
+  //** Refetching Data */
   const reFetchData = async () => {
     setLoading(true);
 
